@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 5.151 s <<< FAILURE! - in TestSuite
+testCases.TC_VDOGameAPI.test_getAllvdoGames  Time elapsed: 3.329 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at testCases.TC_VDOGameAPI.test_getAllvdoGames(TC_VDOGameAPI.java:27)
+
+testCases.TC_VDOGameAPI.test_addNewvdoGames  Time elapsed: 0.695 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at testCases.TC_VDOGameAPI.test_addNewvdoGames(TC_VDOGameAPI.java:51)
+
+testCases.TC_VDOGameAPI.test_getvdoGames  Time elapsed: 0.045 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at testCases.TC_VDOGameAPI.test_getvdoGames(TC_VDOGameAPI.java:66)
+
+testCases.TC_VDOGameAPI.test_getVideoGame  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at testCases.TC_VDOGameAPI.test_getVideoGame(TC_VDOGameAPI.java:89)
+
+testCases.TC_VDOGameAPI.test_DeletevdoGame  Time elapsed: 0.049 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <403>.
+
+	at testCases.TC_VDOGameAPI.test_DeletevdoGame(TC_VDOGameAPI.java:102)
+
